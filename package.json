@@ -1,0 +1,32 @@
+{
+  "name": "react-cli",
+  "version": "1.0.0",
+  "description": "a easy react-cli",
+  "main": "index.js",
+  "bin": {
+    "react-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "jewely",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "glob": "^7.1.2",
+    "inquirer": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^2.1.0"
+  },
+  "devDependencies": {
+    "inquirer": "^6.0.0",
+    "ora": "^2.1.0"
+  }
+}
